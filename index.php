@@ -18,8 +18,8 @@ $root_name = $root_info['items'][0]['dev_name'];
 
 $tree = function ($parent, $parent_cacti_id) use (&$tree, $work, $config) {
 
-    $parent_title = str_replace('&rarr;', '<-->', strip_tags($parent['dev_name']));
-    $title = "Netswitch ". trim(preg_replace('#\[(.+)\]#', '', $parent_title));
+    $parent_title = str_replace('&rarr;', '→', strip_tags($parent['dev_name']));
+    $title =  trim(preg_replace('#\[(.+)\]#', '', $parent_title));
 
     $parent_cacti_id = Cacti::addHeader2Tree($parent_title, $parent_cacti_id, $config['tree_id']);
 
