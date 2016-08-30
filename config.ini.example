@@ -1,0 +1,22 @@
+[cacti]
+; id tree on Cacti where will making topology
+tree_id = 5
+
+; host template for added host graphs
+host_template = 0
+
+; community for hosts
+community_read = 'public'
+
+[work]
+; user for Work login
+username = 'user'
+
+; password for Work login
+password = 'password'
+
+; city filter
+company = 'volia.zp'
+
+; ip root device
+root_ip = '172.16.0.1'

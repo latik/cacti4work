@@ -1,0 +1,17 @@
+{
+    "name": "latik/cacti4work",
+    "description": "imports of the network topology of the work / cubic in cacti",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Latik",
+            "email": "latik@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
