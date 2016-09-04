@@ -9,6 +9,11 @@ if (!file_exists($config_file)){
 
 $config = parse_ini_file($config_file);
 
+// set Cacti path
+if (isset($config['cacti_path'])) {
+    Cacti::$cacti_cli_path = $config['cacti_path'];
+}
+
 $work = new Work(['username' => $config['username'], 'password' => $config['password'], 'company' => $config['company']]);
 
 // get Root info

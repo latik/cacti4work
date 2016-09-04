@@ -1,4 +1,7 @@
 [cacti]
+; Cacti CLI dir
+; cacti_path = '/usr/local/www/cacti/cli/'
+
 ; id tree on Cacti where will making topology
 tree_id = 5
 
